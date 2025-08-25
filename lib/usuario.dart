@@ -29,5 +29,5 @@ class Usuario{
    //escrita do set no estilo dart
    set nome(String? nome) => _nome = nome;
    set senha(String? senha) => _senha = senha;
-   set codigo(String? codigo) => codigo = codigo;
+   set codigo(int? codigo) => codigo = codigo;
 }
